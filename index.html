@@ -1,0 +1,32 @@
+//To display the current seconds by button using javascript
+//First create a function
+
+<script>
+function showingSeconds(){
+   var time = new Date();
+   var t = time.getSeconds();
+   document.getElementById("show").innerHTML = t;
+}
+</script>
+
+//now create a p tag to give output
+
+<p id="show"></p>
+
+
+//now create a button to call the function and display the current seconds
+
+<button type="button" onclick="showingSeconds()">Check Now</button>
+
+
+
+
+
+//output
+
+32
+
+//
+
+
+//Thank you for reading the post. Have a great day!
